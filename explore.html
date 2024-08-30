@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #182527;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .title {
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: #20cd8d;
+        }
+        .links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+        }
+        .link-box {
+            background-color: #00b894;
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        .link-box:hover {
+            background-color: #01976b;
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .product img {
+            width: 200px;
+            height: 200px;
+            background-color: #dfe6e9;
+            margin-bottom: 20px;
+            
+        }
+        .product-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #20cd8d;
+        }
+        .product-description {
+            font-size: 16px;
+            margin-bottom: 20px;
+            max-width: 200px;
+        }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Product Menu</div>
+        <div class="links">
+            
+            <div class="product">
+                <img src="img1.png" alt="Upcoming IPOs">
+                <div class="product-title">Upcoming IPOs</div>
+                <div class="product-description">Description for Upcoming IPOs.</div>
+                <a href="upcoming-ipos.html" class="link-box">Upcoming IPOs</a>
+            </div>
+            <div class="product">
+                <img src="img2.png" alt="IPO Growth Predictor">
+                <div class="product-title">IPO Growth Predictor</div>
+                <div class="product-description">Description for IPO Growth Predictor.</div>
+                <a href="ipo-growth-prediction.html" class="link-box">IPO Growth Predictor</a>
+            </div>
+            <div class="product">
+                <img src="img3.png" alt="Forum">
+                <div class="product-title">Forum</div>
+                <div class="product-description">Discuss about IPOs and know the sentiment.</div>
+                <a href="forum.html" class="link-box">Forum</a>
+            </div>
+            <div class="product">
+                <img src="img1.png" alt="About Us">
+                <div class="product-title">About Us</div>
+                <div class="product-description">Description of the project and algorithm.</div>
+                <a href="about.html" class="link-box">About Us</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

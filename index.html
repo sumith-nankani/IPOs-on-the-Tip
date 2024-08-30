@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPOs on the Tip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #09BA74;
+            color: white;
+            overflow: hidden; 
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            padding: 0 50px;
+        }
+        .title-container {
+            position: absolute;
+            top: 60px;
+            left: 60px;
+            display: flex;
+            align-items: center;
+        }
+        .title {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .line {
+            width: 3px;
+            height: 40px;
+            background-color: #182527;
+            margin-right: 10px;
+        }
+        .explore-button {
+            position: absolute;
+            top: 375px;
+            left: 60px;
+            background-color: #182527;
+            color: white;
+            padding: 15px 45px;
+            font-size: 72px;
+            border: none;
+            border-radius: 80px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        .explore-button:hover {
+            background-color: #333;
+        }
+        .illustration video {
+            width: 105%; 
+            margin-left: -50px; 
+            height: auto; 
+            border-radius: 20px;
+        }
+        .left {
+            max-width: 40%;
+        }
+        .right {
+            max-width: 60%;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <div class="line"></div>
+        <div class="title">IPOs on the Tip</div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <a href="explore.html">
+                <button class="explore-button">EXPLORE</button>
+            </a>
+        </div>
+        <div class="right illustration">
+            <video autoplay loop muted>
+                <source src="mainpage.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>

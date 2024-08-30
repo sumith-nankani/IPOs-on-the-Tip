@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    color: #20cd8d;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #00b894;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #20cd8d;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.team ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.team ul li {
+    font-size: 1.2em;
+    padding: 10px;
+    color: #555;
+}
+
+.contact p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.contact a {
+    color: #20cd8d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #00b894;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    main {
+        padding: 50px;
+    }
+
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    main h2 {
+        font-size: 2.5em;
+    }
+
+    main p, .team ul li, .contact p {
+        font-size: 1.4em;
+    }
+}

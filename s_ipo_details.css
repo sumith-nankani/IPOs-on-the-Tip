@@ -1,0 +1,115 @@
+/* s_ipo_details.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; 
+    color: #333; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    color: #20cd8d; 
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.main-details {
+    flex: 2;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-details h2 {
+    color: #00b894; 
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #20cd8d;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9; 
+    border-radius: 5px;
+}
+
+.label {
+    font-weight: bold;
+    color: #555; 
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    color: #00b894; 
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.ipo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ipo-list li {
+    margin-bottom: 10px;
+}
+
+.ipo-list li a {
+    color: #20cd8d; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.ipo-list li a:hover {
+    color: #00b894; 
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00b894; 
+    color: #ffffff; 
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #20cd8d; 
+}

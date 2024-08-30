@@ -1,0 +1,140 @@
+/* s_ipo_growth_prediction.css */
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f3f4f6; 
+    color: #333; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #20cd8d; 
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    background-color: #ffffff; 
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #00b894;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #20cd8d;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555; 
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9; 
+    color: #333;
+    font-size: 1em;
+}
+
+input:focus, select:focus {
+    border-color: #20cd8d;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(32, 205, 141, 0.3);
+}
+
+button {
+    background-color: #00b894;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #20cd8d;
+    transform: translateY(-2px);
+}
+
+.ipo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ipo-table th, .ipo-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #eaeaea;
+    font-size: 1.1em;
+}
+
+.ipo-table th {
+    background-color: #20cd8d;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ipo-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.ipo-table tr:hover {
+    background-color: #00b894;
+    color: #ffffff;
+}
+
+.ipo-table td a.button {
+    color: #00b894;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.ipo-table td a.button:hover {
+    color: #ffffff;
+}

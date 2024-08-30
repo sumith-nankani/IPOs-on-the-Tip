@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPO Growth Prediction</title>
+    <link rel="stylesheet" href="s_ipo_growth_prediction.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>IPO Growth Prediction</h1>
+        </header>
+
+        <div class="content">
+            <div class="left-panel">
+                <h2>Upcoming IPOs</h2>
+                <table class="ipo-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Expected Listing Date</th>
+                            <th>Industry</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr onclick="window.location.href='ipo-details.html'">
+                            <td>Company B</td>
+                            <td>October 1, 2024</td>
+                            <td>Technology</td>
+                            <td><a href="#" class="button">Predict Growth</a></td>
+                        </tr>
+                        <tr onclick="window.location.href='ipo-details.html'">
+                            <td>Company C</td>
+                            <td>November 15, 2024</td>
+                            <td>Healthcare</td>
+                            <td><a href="#" class="button">Predict Growth</a></td>
+                        </tr>
+                        <tr onclick="window.location.href='ipo-details.html'">
+                            <td>Company D</td>
+                            <td>December 10, 2024</td>
+                            <td>Finance</td>
+                            <td><a href="#" class="button">Predict Growth</a></td>
+                        </tr>
+                        <tr onclick="window.location.href='ipo-details.html'">
+                            <td>Company E</td>
+                            <td>January 5, 2025</td>
+                            <td>Technology</td>
+                            <td><a href="#" class="button">Predict Growth</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="right-panel">
+                <form id="growth-form">
+                    <h2>Enter IPO Data</h2>
+                    <label for="company-name">Company Name:</label>
+                    <input type="text" id="company-name" name="company-name" required>
+                    
+                    <label for="listing-price">Listing Price ($):</label>
+                    <input type="number" id="listing-price" name="listing-price" step="0.01" required>
+                    
+                    <label for="market-cap">Market Cap ($):</label>
+                    <input type="number" id="market-cap" name="market-cap" step="0.01" required>
+
+                    <label for="industry">Industry:</label>
+                    <input type="text" id="industry" name="industry" required>
+
+                    <label for="algorithm">Select Algorithm:</label>
+                    <select id="algorithm" name="algorithm" required>
+                        <option value="linear-regression">Linear Regression</option>
+                        <option value="random-forest">Random Forest</option>
+                        <option value="neural-network">Neural Network</option>
+                    </select>
+
+                    <button type="submit">Predict Growth</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

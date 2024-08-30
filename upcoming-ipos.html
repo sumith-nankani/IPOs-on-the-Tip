@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming and Listed IPOs</title>
+    <link rel="stylesheet" href="s_upcoming_ipos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Upcoming and Listed IPOs</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Upcoming IPOs</h2>
+                <table class="ipo-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Expected Listing Date</th>
+                            <th>Expected Listing Price</th>
+                            <th>Market Cap</th>
+                            <th>Industry</th>
+                            <th>Lead Managers</th>
+                        </tr>
+                    </thead>
+                    <tbody id="upcoming-ipos">
+                        <tr onclick="window.location.href='ipo-details.html?id=1'">
+                            <td>Company A</td>
+                            <td>2024-09-15</td>
+                            <td>$100</td>
+                            <td>$1 Billion</td>
+                            <td>Technology</td>
+                            <td>Manager A</td>
+                        </tr>
+                        <tr onclick="window.location.href='ipo-details.html?id=2'">
+                            <td>Company B</td>
+                            <td>2024-09-30</td>
+                            <td>$150</td>
+                            <td>$1.5 Billion</td>
+                            <td>Healthcare</td>
+                            <td>Manager B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Listed IPOs</h2>
+                <table class="ipo-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Listing Date</th>
+                            <th>Listing Price</th>
+                            <th>Listing Gains</th>
+                            <th>Market Cap</th>
+                            <th>Industry</th>
+                            <th>Previous Data</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listed-ipos">
+                        <tr onclick="window.location.href='ipo-details.html?id=3'">
+                            <td>Company X</td>
+                            <td>2024-07-10</td>
+                            <td>$120</td>
+                            <td>10%</td>
+                            <td>$1.2 Billion</td>
+                            <td>Finance</td>
+                            <td>Data X</td>
+                        </tr>
+                        <tr onclick="window.location.href='ipo-details.html?id=4'">
+                            <td>Company Y</td>
+                            <td>2024-06-25</td>
+                            <td>$140</td>
+                            <td>5%</td>
+                            <td>$1.4 Billion</td>
+                            <td>Energy</td>
+                            <td>Data Y</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
